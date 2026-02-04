@@ -90,12 +90,12 @@ python3 lookup_user.py
 python3 sync_members_from_csv.py
 ```
 
-- **Notes**: 
-  - All scripts use environment-based configuration for security.
-  - The `uniqueId` referred to in the logs and CSVs corresponds to the integer ID provided by MotorsportReg, while the API interactions use the UUID `id` (GUID).
-  - Logs are automatically rotated by timestamp in the `logs/` directory.
+**Notes:**
+- All scripts use environment-based configuration for security.
+- The `uniqueId` referred to in the logs and CSVs corresponds to the integer ID provided by MotorsportReg, while the API interactions use the UUID `id` (GUID).
+- Logs are automatically rotated by timestamp in the `logs/` directory.
 
-  
+
 ## About
 
 This project was built with the assistance of **Antigravity**, an agentic AI coding assistant by Google Deepmind.
