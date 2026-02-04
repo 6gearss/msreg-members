@@ -1,4 +1,13 @@
-__pycache__
+__pycache__/
+*.py[cod]
 .env
+.venv/
 *.log
-.venv
+.DS_Store
+.vscode/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
