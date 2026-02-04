@@ -90,13 +90,24 @@ python3 lookup_user.py
 python3 sync_members_from_csv.py
 ```
 
-## About
-
-This project was built with the assistance of **Antigravity**, an agentic AI coding assistant by Google Deepmind.
-
-- **Version**: 1.0.0
-- **Generated**: Feb 2026
 - **Notes**: 
   - All scripts use environment-based configuration for security.
   - The `uniqueId` referred to in the logs and CSVs corresponds to the integer ID provided by MotorsportReg, while the API interactions use the UUID `id` (GUID).
   - Logs are automatically rotated by timestamp in the `logs/` directory.
+
+  
+## About
+
+This project was built with the assistance of **Antigravity**, an agentic AI coding assistant by Google Deepmind.
+
+- **Antigravity Version**: 1.15.8
+- **VSCode OSS Version**: 1.104.0
+- **Commit**: 7a8657542180fb8440c8dcc20d83285fe11360ed
+- **Date**: 2026-01-24T04:14:01.501Z
+- **Electron**: 37.3.1
+- **Chromium**: 138.0.7204.235
+- **Node.js**: 22.18.0
+- **V8**: 13.8.258.31-electron.0
+- **OS**: Darwin arm64 24.6.0
+- **Language Server CL**: 860355132
+
