@@ -3,8 +3,7 @@ __pycache__/
 .env
 .venv/
 *.log
-.DS_Store
-.vscode/
+
 
 # macOS
 .DS_Store
