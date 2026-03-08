@@ -58,11 +58,22 @@ class MotorsportRegClient:
         }
         return self._get(endpoint, params=params)
 
-    def get_member_details(self, member_id):
+    def get_member_details(self, member_id, fields=None):
         """
         Fetches details for a specific member.
+        :param fields: Optional comma-separated list of fields (e.g. 'questions,logbook')
         """
         endpoint = f"/rest/members/{member_id}.json"
+        params = {}
+        if fields:
+            params['fields'] = fields
+        return self._get(endpoint, params=params)
+
+    def get_member_logbook(self, member_id):
+        """
+        Fetches logbook entries for a specific member.
+        """
+        endpoint = f"/rest/members/{member_id}/logbook.json"
         return self._get(endpoint)
 
     def update_member(self, member_id, data):
